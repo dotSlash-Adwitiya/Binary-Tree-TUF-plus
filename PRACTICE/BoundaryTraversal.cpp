@@ -1,12 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Node{
+class TreeNode{
 public:
     int data;
-    Node* left;
-    Node* right;
-    Node(int item)
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int item)
     {
         data = item;
         left = nullptr;
